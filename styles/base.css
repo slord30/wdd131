@@ -93,6 +93,9 @@ h2.card-title {
     display: flex;
     /* justify-content: space-between; */
     column-gap: 1rem;
+    font-family: var(--paragraph-font);
+    text-align: justify;
+    font-size:small;
 }
 
 h2.card-location {
@@ -105,14 +108,12 @@ h2.card-location {
     margin-inline: auto;
 }
 
-p#card {
-    font-family: var(--paragraph-font);
-    text-align: justify;
-    font-size:small;
-}
-
 img {
     border-radius: 20px;
+    width: auto;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 img#main {
@@ -122,12 +123,7 @@ img#main {
     object-position: bottom;
 }
 
-img#astros {
-    width: auto;
-    max-height: 200px;
-    object-fit: cover;
-    object-position: bottom;
-}
+
 
 figure {
     text-align: center;
