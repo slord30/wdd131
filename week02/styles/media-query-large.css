@@ -4,6 +4,6 @@
         color: #fff;
     }
     main {
-        grid-template-columns: 1 fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
