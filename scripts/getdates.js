@@ -1,16 +1,11 @@
-// const year = document.querySelector("#currentyear");
-// const lastModified = document.querySelector("#lastModified");
+// this code works too
+// const now = new Date();
+// const year = now.getFullYear();
 
-// // get the current year for footer
-// const date = new Date();
-// year.innerHTML = today.GetFullYear();
+// document.getElementById('lastModified').textContent = document.lastModified;
+// document.getElementById('currentYear').textContent = year;
 
-// //get the last modification date of the home page
-// let lastMod = document.lastModified;
-// $lastModified.innerHTML = `Last Modification: ${document.lastModified}`;
-
-const now = new Date();
-const year = now.getFullYear();
-
-document.getElementById('lastModified').textContent = document.lastModified;
-document.getElementById('currentYear').textContent = year;
+// code from professor
+const d = new Date();
+document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
+document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
