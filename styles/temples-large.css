@@ -34,7 +34,7 @@
 		flex: 1 1 100%;
 	} */
   
-    #menu {
+    button#menu {
 		display: none; /* hide hamburger button */
 	}
 
