@@ -94,7 +94,7 @@ nav ul {
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
-	color: #000;
+	color: #fff;
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
@@ -105,16 +105,12 @@ nav ul {
 }
 
 #menu.open::before {
-	content: "❎";
+	content: "⦻";
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
 	display: block;
-}
-
-.active::before { 
-	content: "📍";  /* just a wayfinding symbol for the user */
 }
 
 section {
