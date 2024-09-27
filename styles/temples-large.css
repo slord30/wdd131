@@ -1,0 +1,41 @@
+@media screen and (min-width: 600px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h1 {
+        margin-left: 0;
+        text-align: center;
+        grid-area: 1/1/2/2;
+    }
+
+    h2 {
+        text-align: left;
+        margin: 1rem;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	} */
+  
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+    section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
