@@ -20,6 +20,14 @@
         margin-left: 2rem;
     }
 
+    button#menu {
+		display: none; /* hide hamburger button */
+	}
+
+    section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     nav ul {
         display: flex;
         justify-content: space-evenly;
@@ -34,11 +42,4 @@
 		flex: 1 1 100%;
 	} */
   
-    button#menu {
-		display: none; /* hide hamburger button */
-	}
-
-    section {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 }
