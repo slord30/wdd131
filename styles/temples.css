@@ -2,6 +2,11 @@
 
 /* mobile **********************************/
 
+:root {
+    --dark-color: #02394a;
+    --light-color: #96c0b7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #02394a;
+    background-color: var(--dark-color);
     color: #fff;
     display: grid;
     grid-template-columns: repeat(2 1fr);
@@ -36,7 +41,7 @@ h1 {
 
 
 h2 {
-    text-align: left;
+    text-align: center;
 	margin: 1rem;
 }
 
@@ -72,7 +77,7 @@ nav a:hover {
 }
 
 .active {
-    color: #96c0b7;
+    color: var(--light-color);
 }
 
 nav ul {
@@ -131,4 +136,12 @@ main figure {
 
 img {
     max-width: 100%;
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
 }
