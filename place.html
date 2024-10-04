@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +10,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Gluten:wght@100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/pla">
-    <script defer src="scripts/place.js"></script>
+    <script defer src="scripts/windchill.js"></script>
+    <script defer src="scripts/getdates.js"></script>
 </head>
-<body>
-    <header>
-        <h1>
-        </h1>
-    </header>
-    <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/el-tule-large.wepb" media="(min-width: 1000px)">
-                <source srcset="images/el-tule-medium.wepb" media="(min-width: 500px)">
-                <img src="images/el-tule-small.webp" alt="El Tule Oaxaca Mexico" width="500" height="251">
-            </picture>
-        </div>
-        <div class="data">
-            <h2></h2>
-            <p></p>
-        </div>
-        <div class="weather">
-            <h2></h2>
-            <p></p>
-        </div>
-    </main>
-    <footer>
-        <p id="symbol-date-name">
-            <span id="currentYear"></span> 
-            &#127804; Sarah Lord &#127804; USA
-        </p>
-        <p id="lastModified"></p>        
-    </footer>
-</body>
+<header>
+    <h1>Oaxaca Mexico</h1>
+</header>
+<aside></aside>
+<main>
+    <div class="hero">
+        <picture>
+            <source srcset="images/el-tule-large.wepb" media="(min-width: 1200px)">
+            <source srcset="images/el-tule-medium.wepb" media="(min-width: 500px)">
+            <img src="images/el-tule-small.webp" alt="El Tule Oaxaca Mexico" width="500" height="250">
+        </picture>
+        <section class="card data">
+            <h2>Data</h2>
+            <div class="col-2">
+                <span class="label"><b>Area: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Population: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Capital: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Languages: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Currency: </b></span>
+                <span class="value">Peso</span>
+                <span class="label"><b>Time Zone: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Calling Code: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Internet TLD: </b></span>
+                <span class="value"></span>
+            </div>
+        </section>
+        <section class="card weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" id="weather-icon" alt="weather" width="500" height="500">
+            <div class="col-2">
+                <span class="label"><b>Temperature: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Conditions: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Wind: </b></span>
+                <span class="value"></span>
+                <span class="label"><b>Wind Chill: </b></span>
+                <span class="value" id="wcf"></span>
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <p id="symbol-date-name">
+        <span id="currentYear"></span>
+        &#127804; Sarah Lord &#127804; USA
+    </p>
+    <p id="lastModified"></p>
+</footer>

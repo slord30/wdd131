@@ -1,0 +1,50 @@
+@media screen and (min-width: 600px) {
+
+    header {
+        background-color: #c72e2a;
+        color: var(--font-color-light);
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    main {
+        position: relative;
+    }
+
+    .card {
+        border: var(--border);
+        box-shadow: 0 0 02rem #000;
+        opacity: .8;
+    }
+
+    .card h2 {
+
+    }
+
+    .data {
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
+    }
+
+    .weater {
+        position: absolute;
+        bottom: 2rem;
+        right 1rem;
+    }
+
+    .weather h2::after {
+        content: '🌤';
+        position: absolute;
+        right: 3rem;
+        top: 1.25rem;
+    }
+
+    #eather-icon {
+        display: none;
+    }
+    
+}

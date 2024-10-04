@@ -1,4 +1,90 @@
-.hero img {
+/*********mobile**************/
+
+:root {
+    --main-color: #c72e2a;
+    --secondary-color: #FC9D03;
+    --accent-color: #5A683C;
+    --accent-color2: #107088;
+    --accent-color3: #D5316F;
+
+    --font-color-dark: #000;
+    --font-color-light: #fff;
+
+    --border: 1px solid rgba(0,0,0,.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Gluten, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #c72e2a;
+    color: var(--font-color-light);
+    font-family: Chango, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+aside { 
+    background-color: var(--accent-color2);
+    padding: .5rem;
+    text-align: center;
+}
+
+/*all images */
+img {
     width: 100%;
     height: auto;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.col-2 {
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.label {
+    font-weight: 700;
+    font-size: .85rem;
+    text-align: right;
+}
+
+.value {
+    font-size: .9rem;
+}
+
+img#weather-icon {
+    width: 100px;
+}
+
+footer {
+    background-color: #FC9D03;
 }
