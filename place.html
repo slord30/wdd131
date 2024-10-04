@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Chango&family=Gluten:wght@100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/place.css">
-    <link rel="stylesheet" href="styles/pla">
+    <link rel="stylesheet" href="styles/place-large.css">
     <script defer src="scripts/windchill.js"></script>
     <script defer src="scripts/getdates.js"></script>
 </head>
@@ -26,42 +26,42 @@
 <main>
     <div class="hero">
         <picture>
-            <source srcset="images/el-tule-large.wepb" media="(min-width: 1200px)">
-            <source srcset="images/el-tule-medium.wepb" media="(min-width: 500px)">
+            <source srcset="images/el-tule-large.webp" media= "(min-width: 1400px)">
+            <source srcset="images/el-tule-medium.webp" media= "(min-width: 600px)">
             <img src="images/el-tule-small.webp" alt="El Tule Oaxaca Mexico" width="500" height="250">
         </picture>
         <section class="card data">
             <h2>Data</h2>
             <div class="col-2">
-                <span class="label"><b>Area: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Population: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Capital: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Languages: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Currency: </b></span>
+                <span class="label">Area: </span>
+                <span class="value">93,757 sq mi</span>
+                <span class="label">Population: </span>
+                <span class="value">747,000</span>
+                <span class="label">Capital: </span>
+                <span class="value">Oaxaca de Juárez</span>
+                <span class="label">Languages: </span>
+                <span class="value">Spanish</span>
+                <span class="label">Currency: </span>
                 <span class="value">Peso</span>
-                <span class="label"><b>Time Zone: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Calling Code: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Internet TLD: </b></span>
-                <span class="value"></span>
+                <span class="label">Time Zone: </span>
+                <span class="value">GMT-6</span>
+                <span class="label">Calling Code: </span>
+                <span class="value">+52</span>
+                <span class="label">Internet TLD: </span>
+                <span class="value">.mx</span>
             </div>
         </section>
         <section class="card weather">
             <h2>Weather</h2>
             <img src="images/weather.svg" id="weather-icon" alt="weather" width="500" height="500">
             <div class="col-2">
-                <span class="label"><b>Temperature: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Conditions: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Wind: </b></span>
-                <span class="value"></span>
-                <span class="label"><b>Wind Chill: </b></span>
+                <span class="label">Temperature: </span>
+                <span class="value">61 °F</span>
+                <span class="label">Conditions: </span>
+                <span class="value">Chance of Rain</span>
+                <span class="label">Wind: </span>
+                <span class="value">2 mph</span>
+                <span class="label">Wind Chill: </span>
                 <span class="value" id="wcf"></span>
             </div>
         </section>

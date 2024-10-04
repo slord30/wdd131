@@ -1,4 +1,7 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
+    :root {
+        --border: 1px solid rgba(0,0,0,.1);
+    }
 
     header {
         background-color: #c72e2a;
@@ -16,34 +19,55 @@
 
     .card {
         border: var(--border);
-        box-shadow: 0 0 02rem #000;
+        box-shadow: 0 0 2rem #000;
         opacity: .8;
+        padding: 10px 20px 0px 10px;
     }
 
     .card h2 {
+        font-size: 2rem;
+        text-align: left;
+        margin-left: -25px;
+        color: var(--font-color-light)
+    }
 
+    .label {
+        font-size: 1.25rem;
+    }
+
+    .value {
+        font-size: 1.25rem;
+    }
+    
+    .card.data{
+        margin-left: 20px;
+    }
+
+    .card.weather {
+        margin-right: 20px;
     }
 
     .data {
         position: absolute;
-        bottom: 2rem;
+        top: 2rem;
         left: 1rem;
     }
 
-    .weater {
+    .weather {
         position: absolute;
         bottom: 2rem;
-        right 1rem;
+        right: 1rem;
     }
 
     .weather h2::after {
-        content: '🌤';
+        content: '🌦';
         position: absolute;
-        right: 3rem;
-        top: 1.25rem;
+        right: 2.5rem;
+        top: 1.75rem;
+        color: #fff;
     }
 
-    #eather-icon {
+    #weather-icon {
         display: none;
     }
     

@@ -1,11 +1,11 @@
 const wcf = document.querySelector('#wcf');
 
 function windChill(temp, speed) {
-    return 13.12 + (0.6215 * temp) - (11.37 * Math.pow (speed, 0.16)) + (0.3965 * tempC * Math.pow(speed, 0.16));
+    return 35.74 + (0.6215 * temp) - (35.75 * Math.pow (speed, 0.16)) + (0.34275 * tempC * Math.pow(speed, 0.16));
 }
 
-let tempC = 10;
-let speed = 5;
+let tempC = 61;
+let speed = 2;
 
 
 

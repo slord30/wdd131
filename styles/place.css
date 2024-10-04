@@ -50,14 +50,19 @@ img {
     height: auto;
 }
 
+.hero {
+    background-color: var(--accent-color3);
+}
+
 h2 {
     padding: 1rem;
+    background-color: var(--accent-color);
+    font-family: Chango, sans-serif;
+    text-transform: uppercase;
 }
 
 .card {
     background-color: #fff;
-    border-radius: .5rem;
-    text-align: center;
 }
 
 .card h2 {
@@ -83,7 +88,9 @@ h2 {
 
 img#weather-icon {
     width: 100px;
-}
+    display: block;
+    margin: auto;
+}   
 
 footer {
     background-color: #FC9D03;
