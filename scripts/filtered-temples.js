@@ -78,7 +78,7 @@ const temples = [
     },
     {
         templeName: "Nauvoo Illinois",
-        location: "Nauvoo, Illinois",
+        location: "Nauvoo, Illinois, United States",
         dedicated: "2002, June, 27",
         area: 54000,
         imageUrl:
@@ -86,7 +86,7 @@ const temples = [
     },
     {
         templeName: "Salt Lake Utah",
-        location: "Salt Lake City, Utah",
+        location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
         area: 382207,
         imageUrl:

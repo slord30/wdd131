@@ -53,6 +53,7 @@ h3 {
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: larger;
 }
 
 nav {
@@ -128,7 +129,11 @@ section {
 }
 
 p {
-    text-align: center;
+    margin-left: 1em;
+}
+
+span.label {
+    font-weight: 700;
 }
 
 main figure {
@@ -140,11 +145,13 @@ main figure {
 
 img {
     max-width: 100%;
+    aspect-ratio: 400 / 250;
     box-shadow: 5px 5px 15px #000;
     margin-top: 1rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 figcaption {
