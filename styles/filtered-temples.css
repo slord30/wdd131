@@ -1,0 +1,163 @@
+/* mobile **********************************/
+
+:root {
+    --dark-color: #02394a;
+    --light-color: #96c0b7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Gowun Batang', sans-serif;
+}
+
+header {
+    background-color: var(--dark-color);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    padding: 20px;
+    grid-row-gap: 0px;
+}
+
+header, main {
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+}
+
+h1 {
+    margin-left: 0;
+    font-size: 1.5rem;
+    text-align: left;
+    grid-area: 1/1/2/2;
+}
+
+
+h2 {
+    text-align: center;
+	margin: 1rem;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1/2/2/3;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.active {
+    color: var(--light-color);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #fff;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "⦻";
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+section {
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    background-color: var(--light-color);
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+}
+
+main figure {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #eee;
+    margin: 1rem;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 5px 5px 15px #000;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 15px;
+    padding-top: .5rem;
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 1rem;
+}
