@@ -2,10 +2,9 @@ const d = new Date();
 document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
 document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
 
+const h2 = document.querySelector('h2')
 
 const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
-
 hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
     hamButton.classList.toggle('open');
@@ -94,45 +93,52 @@ const temples = [
     }
 ];
 
+/////////Function createTempleCard////////
 createTempleCard(temples);
 
-//create an event listener for temples built before 1900. Filter through temples array
+//Create Old Temples - create an event listener for temples built before 1900. Filter through temples array
 //create variable to hold "old" attribute from html
 const oldLink = document.querySelector("#old");
 
 oldLink.addEventListener("click", () => {
     createTempleCard(temples.filter(temple => temple.dedicated < "1900"));
+    h2.textContent = 'Old Temples';
 });
 
-//event listener for temples built after 2000
+//Create New Temples - event listener for temples built after 2000
 const newLink = document.querySelector("#new");
 
 newLink.addEventListener("click", () => {
     createTempleCard(temples.filter(temple => temple.dedicated > "2000"));
+    h2.textContent = 'New Temples';
 });
 
-//event listener for temples larger than 90000 sq ft
+//Create Large Temples - event listener for temples larger than 90000 sq ft
 const largeLink = document.querySelector("#large");
 
 largeLink.addEventListener("click", () => {
     createTempleCard(temples.filter(temple => temple.area > 90000));
+    h2.textContent = 'Large Temples';
 });
 
-//event listener for temples smaller than 10000 sp ft
+//Create Small Temples - event listener for temples smaller than 10000 sp ft
 const smallLink = document.querySelector("#small");
 
 smallLink.addEventListener("click", () => {
     createTempleCard(temples.filter(temple => temple.area < 10000));
+    h2.textContent = 'Small Temples';
 });
 
-//event listener for home page, include all temples
+//Create All Temples - event listener for home page, include all temples
 const homeLink = document.querySelector("#home");
 
 homeLink.addEventListener("click", () => {
     createTempleCard(temples)
+    h2.textContent = 'All Temples';
 });
 
 
+//////////Function createTempleCard - filter out temples////////////////
 //loop through the temmples array and create "temple cards" for each temple 
 function createTempleCard(filteredTemples) {
         document.querySelector(".temple-grid").innerHTML = "";
