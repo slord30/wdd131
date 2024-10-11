@@ -88,10 +88,6 @@ nav a:hover {
 	text-decoration: none;
 }
 
-.active {
-    color: var(--light-color);
-}
-
 nav ul {
     list-style-type: none;
 }
