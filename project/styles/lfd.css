@@ -1,0 +1,15 @@
+/****************** mobile *******************/
+
+:root {
+    --dark-color-blue: #2FA0A8;
+    --dark-color-green: #657F00;
+    --light-color-blue: #AFEDD6;
+    --light-color-green: #B4CE00;
+    --font-color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
