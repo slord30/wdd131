@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h3 {
     font-family: "Forum", serif;
     color: var(--dark-color-blue);
 }
@@ -21,7 +21,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
+h2 {
     font-family: "Ms Madi", cursive;
     color: var(--dark-color-green);
     font-size: 35px;
