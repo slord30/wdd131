@@ -1,101 +1,152 @@
 :root {
-    --bright-pink: #BB1585;
-    --bright-orange: #F78065;
-    --bright-blue: #2BBCC3;
-    --salmon: #fdcacb;
+    --dark-color-blue: #2FA0A8;
+    --dark-color-green: #657F00;
+    --light-color-blue: #e5fdff;
+    --light-color-green: #657f004f;
+    --font-color: #000;
 }
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 500px;
+    max-width: 1920px;
+}
+
+h1, h3, button {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-color-blue);
 }
 
 h1 {
-    font-family: "Forum", serif;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: var(--bright-pink);
-    padding: 1rem;
-    border-radius: 25px 25px 0 0;
-    margin-top: 2rem;
+    font-weight: 550;
+}
+
+h2 {
+    font-family: "Ms Madi", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--dark-color-green);
 }
 
 body {
-    font-family: "Forum", serif;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-label.product, label.installation, label.question, label.review, label.name, label.title {
-    font-weight: 700;
-} 
+form.form {
+    max-width: 300px;
+    margin: 0 auto;
+}
 
-.form input[type="text"],
-.form input[type="tel"],
-.form input[type="email"],
-.form input[type="url"],
-.form input[type="date"],
-.form select,
-.form textarea,
-.form input[type="number"] {
-    background-color: var(--salmon);
-    border: solid 1px #999;
-    border-radius: 6px;
+h1 {
+    color: var(--dark-color-blue);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+}
+
+fieldset {
+    border: 1px solid var(--dark-color-green);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+legend {
+    color: var(--dark-color-green);
+    padding: 0 .5rem;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+
+}
+
+.form ::placeholder {
+    color: #000;
+}
+
+div {
+    padding-top: 1rem;
+    color: var(--dark-color-blue);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea#reason
+{
+    background-color: var(--light-color-blue);
+    display: block;
+    border: solid 1px var(--dark-color-blue);
+    border-radius: 2px;
     padding: .75rem;
-    color: #353535;
+    color: var(--font-color);
     width: 100%;
-    max-width: 500px;
-    margin-top: .75rem
+    max-width: 400px;
+    appearance: none;
 }
 
-.form input[type = "checkbox"] {
-    margin: 10px 10px 10px 0;
-    
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 6px;
 }
 
-.product, .rating, .installation, .review, .checkbox, .name {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-
+.days {
+    display: block;
 }
 
-/* Dropdown */
 
-
-/* Radio buttons */
-.stars {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto;
-}
-
-.form input[type="radio"] {
-    grid-row: 2 / 3;
-    margin-top: .5rem
-}
-
-label.title {
-    margin-bottom: 1rem;
-}
-
-/* Submit button */
-.form input[type="submit"] {
-    border: none;
-    background-color: var(--bright-orange);
-    color: #fff;
-    border: solid 1px #999;
+button {    
+    border: solid 1px var(--dark-color-blue);
+    background-color: var(--light-color-blue);
+    padding: 2rem;
     border-radius: 6px;
     padding: .8rem;
-    width: 96%;
-    max-width: 300px;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: var(--dark-color-green);
+    transform: scale(1.05);
+    color: #fff;
+}
+
+
+/*************FOOTERS SECTION************/
+h3#hours {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+h3#location {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+footer h1 {
+    font-size: 1.5rem;
+}
+
+footer h2 {
+    font-size: 2rem;
 }
 
 footer {
+    padding: 2rem;
+    padding-top: 4rem;
+    background-color: var(--light-color-green);
     text-align: center;
-    background-color: var(--bright-blue);
-    padding: 1rem;
-    border-radius: 0 0 25px 25px;
-
 }
+
 
