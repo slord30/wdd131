@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="House" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #30a0a8;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4.22px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="72" cy="72" r="72"/>
+  <g>
+    <path class="cls-2" d="m71.07,45.38l-25.42,24.47c-.35.33-.54.79-.54,1.27v35.31c0,.86.7,1.57,1.57,1.57h15.45c.85,0,1.54-.69,1.54-1.54v-19.79c0-.85.69-1.53,1.53-1.53h13.27c.86,0,1.55.7,1.55,1.55v19.75c0,.86.7,1.56,1.56,1.56h15.93c.82,0,1.48-.66,1.48-1.48v-34.9c0-.51-.21-.99-.57-1.34l-25.73-24.9c-.46-.44-1.18-.44-1.64,0Z"/>
+    <polyline class="cls-3" points="35.63 70.38 72.06 36 108.37 70.38"/>
+    <polygon class="cls-2" points="42.59 61.73 42.59 42.48 54.11 42.48 54.11 53.58 42.59 61.73"/>
+  </g>
+</svg>
