@@ -1,0 +1,81 @@
+.logo {
+    display: flex; /* Use flexbox for centering the image */
+    justify-content: flex-start; /* Align image to the left */
+    margin-left: .5rem;
+}
+
+.logo img {
+    max-width: 35%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* justify-items: flex-end; */
+    border-bottom: 1px solid #ccc;
+    max-width: 1920px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1/2/2/3;
+}
+
+nav a {
+    display: block;
+    color: var(--dark-color-green);
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.navigation a {
+    display: none;
+    padding: .25rem;
+    text-align: center;
+    text-decoration: none;
+} 
+
+nav ul {
+    list-style-type: none;
+}
+
+/* small view navigation */
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: var(--dark-color-blue);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖";
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+    display: block;
+}

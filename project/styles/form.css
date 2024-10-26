@@ -1,0 +1,152 @@
+:root {
+    --dark-color-blue: #2FA0A8;
+    --dark-color-green: #657F00;
+    --light-color-blue: #e5fdff;
+    --light-color-green: #657f004f;
+    --font-color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+h1, h3, button {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-color-blue);
+}
+
+h1 {
+    font-weight: 550;
+}
+
+h2 {
+    font-family: "Ms Madi", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--dark-color-green);
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form.form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--dark-color-blue);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+}
+
+fieldset {
+    border: 1px solid var(--dark-color-green);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+legend {
+    color: var(--dark-color-green);
+    padding: 0 .5rem;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+
+}
+
+.form ::placeholder {
+    color: #000;
+}
+
+div {
+    padding-top: 1rem;
+    color: var(--dark-color-blue);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea#reason
+{
+    background-color: var(--light-color-blue);
+    display: block;
+    border: solid 1px var(--dark-color-blue);
+    border-radius: 2px;
+    padding: .75rem;
+    color: var(--font-color);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.days {
+    display: block;
+}
+
+
+button {    
+    border: solid 1px var(--dark-color-blue);
+    background-color: var(--light-color-blue);
+    padding: 2rem;
+    border-radius: 6px;
+    padding: .8rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: var(--dark-color-green);
+    transform: scale(1.05);
+    color: #fff;
+}
+
+
+/*************FOOTERS SECTION************/
+h3#hours {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+h3#location {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+footer h1 {
+    font-size: 1.5rem;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+footer {
+    padding: 2rem;
+    padding-top: 4rem;
+    background-color: var(--light-color-green);
+    text-align: center;
+}
+
+

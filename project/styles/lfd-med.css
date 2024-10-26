@@ -1,0 +1,9 @@
+@media screen and (min-width: 1030px) {
+
+    h3#privately {
+        font-size: 1.25rem;
+    }
+
+    h3.best {
+        font-size: 1.25rem;
+    }

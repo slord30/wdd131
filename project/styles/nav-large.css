@@ -1,0 +1,27 @@
+@media screen and (min-width: 900px) {
+
+    .logo img {
+        max-width: 25%; /* Ensure the image is responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 2rem;
+    }
+    
+    button#menu {
+        display: none;
+    }   
+    
+    .navigation ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+    .navigation a {
+        display: block;
+        font-size: 1rem;
+    }
+}

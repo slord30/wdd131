@@ -1,0 +1,147 @@
+:root {
+    --dark-color-blue: #2FA0A8;
+    --dark-color-green: #657F00;
+    --light-color-blue: #e5fdff;
+    --light-color-green: #657f004f;
+    --font-color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+h1, h3, button {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-color-blue);
+}
+
+h1 {
+    font-weight: 550;
+}
+
+h2 {
+    font-family: "Ms Madi", cursive;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--dark-color-green);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--light-color-blue)
+}
+
+.about-us {
+    background-color: var(--dark-color-blue);
+    text-align: center;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-us h1 {
+    color: #fff;
+}
+
+.doctor-container {
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.doctor-container img {
+    float: left;
+    margin-right: 3rem;
+}
+
+.staff-container {
+    background-color: var(--light-color-green);
+    padding: 5rem 0 5rem 0;
+}
+
+.staff-title h1, .staff-title h2 {
+    text-align: center;
+}
+
+.staff-title {
+    margin-bottom: 3rem;
+}
+
+.fo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem;
+    column-gap: 2rem;
+}
+
+.fo1 img, .fo2 img {
+    float: left;
+    margin-right: 3rem;
+}
+
+.rda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem;
+    column-gap: 2rem;
+}
+
+.rda1 img, .rda2 img {
+    float: left;
+    margin-right: 3rem;
+}
+
+.rdh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem;
+    column-gap: 2rem;
+}
+
+.rdh img, .rdh img {
+    float: left;
+    margin-right: 3rem;
+}
+
+/*************FOOTERS SECTION************/
+h3#hours {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+h3#location {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+footer h1 {
+    font-size: 1.5rem;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+footer {
+    padding: 2rem;
+    padding-top: 4rem;
+    background-color: var(--light-color-blue);
+    text-align: center;
+}
+
