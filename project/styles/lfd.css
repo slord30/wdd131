@@ -3,8 +3,8 @@
 :root {
     --dark-color-blue: #2FA0A8;
     --dark-color-green: #657F00;
-    --light-color-blue: #e5fdff;
-    --light-color-green: #657f004f;
+    --light-color-blue: #f2fbfb
+    --light-color-green: #f3f5ea
     --font-color: #000;
 }
 
@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1920px;
 }
 
 h1, h3, button {
@@ -184,6 +183,7 @@ nav ul {
     padding: .75rem;
     color: #fff;
     font-size: .75rem;
+    border: none;
 }
 
 .banner h3 {
