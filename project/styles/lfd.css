@@ -3,8 +3,8 @@
 :root {
     --dark-color-blue: #2FA0A8;
     --dark-color-green: #657F00;
-    --light-color-blue: #f2fbfb
-    --light-color-green: #f3f5ea
+    --light-color-blue: #f2fbfb;
+    --light-color-green: #f3f5ea;
     --font-color: #000;
 }
 
@@ -56,6 +56,7 @@ header, main {
     margin: 0 auto;
 }
 
+
 /**************HEADER************/
 .logo {
     display: flex; /* Use flexbox for centering the image */
@@ -64,7 +65,7 @@ header, main {
 }
 
 .logo img {
-    max-width: 35%; /* Ensure the image is responsive */
+    max-width: 85%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 1rem;
 }
@@ -373,7 +374,6 @@ h3#location {
 
 .info {
     overflow: auto;
-    width: 800px;
     margin: auto
 }
 
