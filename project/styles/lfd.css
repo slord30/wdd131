@@ -184,11 +184,6 @@ nav ul {
     background-color: var(--dark-color-blue); /* Change background color on hover */
 }
 
-.my-button:hover {
-    background-color: green; /* Change background color on hover */
-    color: yellow;           /* Change text color on hover */
-}
-
 .banner h3 {
     text-align: center;
     grid-column: 1 / 3;
