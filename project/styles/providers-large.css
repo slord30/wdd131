@@ -1,0 +1,44 @@
+@media screen and (min-width: 900px) {
+
+    .doctor-container {
+        width: 850px;
+        margin: 0 auto;
+    }
+
+    .fo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5rem;
+        column-gap: 2rem;
+    }
+    
+    .fo1 img, .fo2 img {
+        float: left;
+        margin-right: 3rem;
+    }
+    
+    .rda {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5rem;
+        column-gap: 2rem;
+    }
+    
+    .rda1 img, .rda2 img {
+        float: left;
+        margin-right: 3rem;
+    }
+    
+    .rdh {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5rem;
+        column-gap: 2rem;
+    }
+    
+    .rdh img, .rdh img {
+        float: left;
+        margin-right: 3rem;
+    }
+
+}

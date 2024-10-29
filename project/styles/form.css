@@ -122,16 +122,12 @@ button:hover {
 
 
 /*************FOOTERS SECTION************/
-h3#hours {
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
+footer {
+    padding: 2rem;
+    padding-top: 4rem;
+    background-color: var(--light-color-green);
+    text-align: center;
 }
-
-h3#location {
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-}
-
 
 footer h1 {
     font-size: 1.5rem;
@@ -141,11 +137,21 @@ footer h2 {
     font-size: 2rem;
 }
 
-footer {
-    padding: 2rem;
-    padding-top: 4rem;
-    background-color: var(--light-color-green);
-    text-align: center;
+footer h3 {
+    font-size: 1rem;
+}
+
+.location {
+    margin-top: 2rem;
+}
+
+.socialmedia {
+    margin-top: 2rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
 }
 
 

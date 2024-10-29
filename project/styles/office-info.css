@@ -17,6 +17,7 @@ h1, h3, button {
     font-weight: 400;
     font-style: normal;
     color: var(--dark-color-blue);
+    text-align: center;
 }
 
 h1 {
@@ -24,11 +25,17 @@ h1 {
 }
 
 h2 {
-    font-family: "Ms Madi", cursive;
+    font-family: "Forum", serif;
     font-weight: 550;
     font-style: normal;
     font-size: 2rem;
     color: var(--dark-color-green);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 body {
@@ -38,66 +45,32 @@ body {
     font-style: normal;
 }
 
-section {
-    padding: 2rem;
-}
-
-header, main {
-    margin: 0 auto;
-}
-
-/**********About Us Containter**************/
-
-.about-us {
-    background-color: var(--dark-color-blue);
+p, ul {
     text-align: center;
-    padding: 3rem;
-    margin-bottom: 2rem;
 }
 
-.about-us h1 {
+.office-info {
+    padding: 3rem;
+    background-color: var(--dark-color-blue);
+}
+
+.office-info h2 {
     color: #fff;
 }
 
-img, button {
-    display: block;
-    margin: 0 auto;
+.hours {
+    margin-top: 3rem;
 }
 
-h1, h2, h3, p, button {
-    text-align: center;
-}
-
-button {
-    margin-top: 2rem;
-}
-
-p {
-    margin-right: 2rem;
-    margin-left: 2rem;
-}
-
-.doctor-container {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    border-bottom: solid 1px #ccc;
-}
-
-.doctor-container button {
-    margin-bottom: 5rem;
-}
-
-.staff-title {
-    padding: 2rem;
-}
-
-.fo {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.fo1, .rda1, .rdh1 {
+.contact {
+    margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.address {
+    background-color: var(--light-color-blue);
+    padding: 3rem;
+    margin-top: 3rem;
 }
 
 
@@ -134,4 +107,3 @@ footer h3 {
     display: flex;
     justify-content: center;
 }
-
