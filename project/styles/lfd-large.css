@@ -69,11 +69,11 @@ button#menu {
     
     .banner button {
         background-color: var(--dark-color-green);
-        border-radius: 10%;
         padding: 1rem;
         color: #fff;
         font-size: 1.5rem;
         text-transform: uppercase;
+        border: none;
     }
 
     .banner h3 {
@@ -179,7 +179,7 @@ button#menu {
 }
 
 /*****************FOOTER SECTION*******************/
-.info {
+/* .info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+} */
