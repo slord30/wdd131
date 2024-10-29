@@ -170,13 +170,23 @@ nav ul {
     /* padding-top: 1rem; */
 }
 
-.banner button {
+.appt-button {
     background-color: var(--dark-color-green);
-
     padding: .75rem;
     color: #fff;
     font-size: .75rem;
     border: none;
+    cursor: pointer;          /* Change cursor to pointer */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.appt-button:hover {
+    background-color: var(--dark-color-blue); /* Change background color on hover */
+}
+
+.my-button:hover {
+    background-color: green; /* Change background color on hover */
+    color: yellow;           /* Change text color on hover */
 }
 
 .banner h3 {
@@ -385,3 +395,6 @@ footer h3 {
     margin-top: 2rem;
 }
 
+img.fb:hover, img.ig:hover, img.yt:hover {
+    transform: scale(1.2); /* Scale the image to 120% of its size on hover */
+}
