@@ -1,7 +1,7 @@
 /****************** mobile *******************/
 
 :root {
-    --dark-color-blue: #2FA0A8;
+    --dark-color-blue: #1e686d;
     --dark-color-green: #657F00;
     --light-color-blue: #f2fbfb;
     --light-color-green: #f3f5ea;
@@ -183,6 +183,7 @@ nav ul {
 .appt-button:hover {
     background-color: var(--dark-color-blue); /* Change background color on hover */
 }
+
 
 .banner h3 {
     text-align: center;
@@ -379,7 +380,7 @@ footer h2 {
 }
 
 footer h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .location {

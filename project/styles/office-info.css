@@ -1,5 +1,5 @@
 :root {
-    --dark-color-blue: #2FA0A8;
+    --dark-color-blue: #1e686d;
     --dark-color-green: #657F00;
     --light-color-blue: #f2fbfb;
     --light-color-green: #f3f5ea;
@@ -92,7 +92,7 @@ footer h2 {
 }
 
 footer h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .location {
@@ -101,11 +101,6 @@ footer h3 {
 
 .socialmedia {
     margin-top: 2rem;
-}
-
-.social {
-    display: flex;
-    justify-content: center;
 }
 
 img.fb:hover, img.ig:hover, img.yt:hover {
