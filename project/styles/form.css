@@ -38,6 +38,11 @@ body {
     font-style: normal;
 }
 
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 form.form {
     max-width: 300px;
     margin: 0 auto;

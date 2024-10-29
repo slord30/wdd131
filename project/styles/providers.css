@@ -1,3 +1,4 @@
+
 :root {
     --dark-color-blue: #1e686d;
     --dark-color-green: #657F00;
@@ -5,6 +6,7 @@
     --light-color-green: #f3f5ea;
     --font-color: #000;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -43,6 +45,11 @@ section {
 
 header, main {
     margin: 0 auto;
+}
+
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /**********About Us Containter**************/

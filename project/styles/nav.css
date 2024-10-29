@@ -5,7 +5,7 @@
 }
 
 .logo img {
-    max-width: 35%; /* Ensure the image is responsive */
+    max-width: 85%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 1rem;
 }

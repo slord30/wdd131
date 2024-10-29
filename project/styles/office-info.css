@@ -49,6 +49,12 @@ p, ul {
     text-align: center;
 }
 
+header {
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .office-info {
     padding: 3rem;
     background-color: var(--dark-color-blue);
