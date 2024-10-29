@@ -41,8 +41,8 @@ body {
 }
 
 section {
-    padding: 0 2rem 0 2rem;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 footer {
@@ -217,9 +217,10 @@ h2#h2 {
 }
 
 img#welcome {
-    max-width: 100px;
+    max-width: 300px;
     height: auto;
     float: right;
+    margin-left: 3rem;
 }
 
 img.house {
@@ -292,6 +293,10 @@ section.fozzie h2 {
 
 /*************SALES SECTION************/
 
+section.sales {
+    background-color: var(--light-color-blue); 
+}
+
 .intro {
     text-align: center;
     border-bottom: 1px solid #ccc;
@@ -321,8 +326,7 @@ section.fozzie h2 {
 /*************REVIEWS SECTION************/
 
 .reviews-section {
-   background-color: var(--light-color-blue); 
-   padding: 2rem;
+   padding: 3rem;
    text-align: center;
 }
 
