@@ -106,6 +106,13 @@ p {
     margin-bottom: 3rem;
 }
 
+.rdh1 {
+    margin-top: 2rem;
+}
+
+.rdh2 {
+    margin-bottom: 2rem;
+}
 
 
 /*************FOOTERS SECTION************/
@@ -138,5 +145,10 @@ footer h3 {
 
 img.fb:hover, img.ig:hover, img.yt:hover {
     transform: scale(1.2); /* Scale the image to 120% of its size on hover */
+}
+
+.social {
+    display: flex;
+    justify-content: center;
 }
 
